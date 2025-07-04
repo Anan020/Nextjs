@@ -3,7 +3,7 @@ import { ProjectData } from '../../utils/data'
 import Image from 'next/image'
 const Project = async () => {
 
-  // console.log(ProjectData)
+
   return (
     <>
       <div className='grid grid-cols-1 sm:grid-cols-2  gap-4 min-w-0'>

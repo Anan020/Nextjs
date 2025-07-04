@@ -2,11 +2,9 @@
 import React from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-interface NavbarProps {
-    href: string;
-}
 
-const Navbar: React.FC<NavbarProps> = ({ href }) => {
+
+const Navbar: React.FC= () => {
     const pathname = usePathname()
 
     const navLinks = [

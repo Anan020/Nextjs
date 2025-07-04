@@ -32,24 +32,25 @@ export const ProjectData = [
     url:"/images/node.png",
     name:"backend project in 2025",
     href:"https://github.com/Anan020/Nodejs2",
-    title:'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
+    title:'fontend project in 2025 Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
+
   },
   {
     url:"/images/React.png",
     name:"fontend project in 2025",
     href:"https://github.com/Anan020/todolist2025",
-    title:'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
+    title:'Here are the biggest enterprise technology acquisitions of 2025 so far, in reverse chronological order.'
   },
   {
     url:"/images/nextjs.jpeg",
     name:"TodoList project in 2025",
-    href:"https://github.com/Anan020/mini_pro",
-    title:'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
+    href:"https://github.com/Anan020/Nextjs",
+    title:'Here are the biggest enterprise technology acquisitions of 2025 so far, in reverse chronological order.'
   },
   {
     url:"/images/js.png",
     name:"Basic project in 2025",
-    title:'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
+    title:'Here are the biggest enterprise technology acquisitions of 2023 so far, in reverse chronological order.'
   },
 ]
 
