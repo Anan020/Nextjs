@@ -21,7 +21,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
               <div className="sticky top-14 h-[calc(100vh-3.5rem)]">
                 <div className="grid grid-rows-[35%_40%_25%] h-full">
                   <div><TitleConten /></div>
-                  <div><Navbar href={''} /></div>
+                  <div><Navbar /></div>
                   <div>
                     <div className="flex gap-2">
                       <a href='https://github.com/Anan020' target='_blank' className="border-2 p-1 rounded-full"><Github className='text-lg'/></a>
