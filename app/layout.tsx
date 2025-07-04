@@ -9,8 +9,8 @@ import { Geist } from 'next/font/google'
 
 import type { Metadata } from 'next';
 
-export const metaData :Metadata = {
-title: "Resume",
+export const metadata :Metadata = {
+title: "Resume website",
 description:" Resume be for apply for work",
 keywords:"Apply for work, Resume , In lao Apply",
 }
