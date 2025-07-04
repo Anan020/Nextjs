@@ -52,6 +52,8 @@ export const ProjectData = [
     name:"Basic project in 2025",
     title:'Here are the biggest enterprise technology acquisitions of 2023 so far, in reverse chronological order.'
   },
+
+
 ]
 
 

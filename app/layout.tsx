@@ -6,6 +6,16 @@ import { Github } from 'lucide-react';
 import { Facebook } from 'lucide-react';
 import { Youtube } from 'lucide-react';
 import { Geist } from 'next/font/google'
+
+import type { Metadata } from 'next';
+
+export const metaData :Metadata = {
+title: "Resume",
+description:" Resume be for apply for work",
+keywords:"Apply for work, Resume , In lao Apply",
+}
+
+
 const geist = Geist({
   subsets: ['latin'],
 })
