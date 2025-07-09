@@ -32,7 +32,6 @@ const Project = async () => {
           ))
         }
       </div>
-
     </>
   )
 }

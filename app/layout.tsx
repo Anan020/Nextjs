@@ -9,10 +9,10 @@ import { Geist } from 'next/font/google'
 
 import type { Metadata } from 'next';
 
-export const metadata :Metadata = {
-title: "Resume website",
-description:" Resume be for apply for work",
-keywords:"Apply for work, Resume , In lao Apply",
+export const metadata: Metadata = {
+  title: "Resume website",
+  description: " Resume be for apply for work",
+  keywords: "Apply for work, Resume , In lao Apply",
 }
 
 
@@ -28,20 +28,21 @@ const layout = ({ children }: { children: React.ReactNode }) => {
           <div className="mx-auto mt-14 max-w-6xl grid grid-cols-[40fr_60fr] min-h-screen px-4">
             {/* Sidebar / Navbar */}
             <div className="relative">
-              <div className="sticky top-14 h-[calc(100vh-3.5rem)]">
-                <div className="grid grid-rows-[35%_40%_25%] h-full">
+              <div className="sticky top-14 md:h-[calc(100vh-3.5rem)]">
+                <div className="grid md:grid-rows-[35%_40%_25%] md:h-full gap-4">
                   <div><TitleConten /></div>
                   <div><Navbar /></div>
                   <div>
                     <div className="flex gap-2">
-                      <a href='https://github.com/Anan020' target='_blank' className="border-2 p-1 rounded-full"><Github className='text-lg'/></a>
-                      <a href='https://www.facebook.com/m.nuchin.kkm/' target='_blank' className="border-2 p-1 rounded-full"><Facebook className='text-lg'/></a>
-                      <a href='https://www.youtube.com/@Lifestyle-b5x' target='_blank' className="border-2 p-1 rounded-full"><Youtube className='text-lg'/></a>
+                      <a href='https://github.com/Anan020' target='_blank' className="border-2 p-1 rounded-full"><Github className='text-lg' /></a>
+                      <a href='https://www.facebook.com/m.nuchin.kkm/' target='_blank' className="border-2 p-1 rounded-full"><Facebook className='text-lg' /></a>
+                      <a href='https://www.youtube.com/@Lifestyle-b5x' target='_blank' className="border-2 p-1 rounded-full"><Youtube className='text-lg' /></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
 
             {/* Content */}
             <div className="mb-96">
